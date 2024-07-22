@@ -1,0 +1,73 @@
+<style>
+
+.sub{
+        background-color:#990d0d;
+        border:none;
+        color:white;
+        height:35px;
+        width:106px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right:8px;
+        transition: background, .15s; /* transation property*/
+    }
+     /*pusdo class for --> hover and active how to use on button*/
+    .sub:hover{            
+        background:green;
+    }
+    .sub:active{
+        background:yellowgreen;
+    }
+
+
+    .join{
+        background:white;
+        color:rgb(10, 70, 235);
+        border-color:rgb(10, 70, 235);
+        border-radius:3px;
+        border-style:solid;
+        height:35px;
+        width:50px;
+        border-width:2px;
+        cursor:pointer;
+        margin-right:8px;
+        font-weight: bold;
+     
+        
+        
+
+    }
+    .join:hover{
+        background:rgb(10, 70, 235);
+        color:white;
+        transition: background-color,.15s;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    }
+    .join:active{
+        opacity: .5;
+    }
+    .tweet{
+        background:#058feb;
+        color:white;
+        border:none;
+        border-radius:20px;
+        height:35px;
+        width:65px;
+        cursor:pointer;
+        font-weight:bold;
+        font-size:15px;
+        
+    }
+    .tweet:hover /* for fade out the button use opacity in hover*/
+    {
+        opacity: 0.5;
+        /*shadow how to use*/
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    }
+</style>
+
+<div>
+    <button class="sub">Subscribe</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+    </div>
